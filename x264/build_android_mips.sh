@@ -1,7 +1,7 @@
 #!/bin/bash
-NDK=/Users/yesimroy/Library/Android/sdk/ndk-bundle
-PLATFORM=$NDK/platforms/android-18/arch-mips/
-TOOLCHAIN=$NDK/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
+
+PLATFORM=$ANDROID_NDK/platforms/android-18/arch-mips/
+TOOLCHAIN=$ANDROID_NDK/toolchains/mipsel-linux-android-4.9/prebuilt/darwin-x86_64
 PREFIX=./android/mips
 
 function build_one
